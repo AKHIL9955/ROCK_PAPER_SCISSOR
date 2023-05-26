@@ -1,0 +1,58 @@
+body{
+    background: url(bg.jpg);
+    
+    background-size: cover;
+    
+}
+.a{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(122, 12, 195);
+}
+.b{
+    text-align: center;
+    
+    
+    
+}
+.d{
+    text-align: center;
+    color: white;
+}
+.b1{
+    margin: 20px 50px;
+    padding: 10px 30px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    border-color: rgb(79, 197, 56);
+    transition: 10.ms;
+}
+.c{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+.div1,.div2{
+    padding: 20px 50px;
+    border: 2px solid red;
+    
+
+    
+}
+h2{
+    color: rgb(232, 239, 35);
+    text-decoration:underline ;
+}
+
+/* Media queries */
+@media (max-width:680px ){
+    .b{
+       display: inline-table;
+    }
+    
+    .c{
+        display: inline;
+        text-align: center;
+    }
+}
