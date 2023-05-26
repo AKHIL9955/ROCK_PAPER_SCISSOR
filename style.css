@@ -44,6 +44,9 @@ h2{
     color: rgb(232, 239, 35);
     text-decoration:underline ;
 }
+.div2  #your_choice{
+    transform: scaleX(-1);
+}
 
 /* Media queries */
 @media (max-width:680px ){
